@@ -32,3 +32,10 @@ def two_sum(nums,target):
 
 
 print(two_sum([3,4,5,6],7))
+
+#time-O(n)-one pass
+#space-O(n)-hash map stores upto n numbers
+
+# Trace through nums=[3,4,15,16], target=7:
+# i=0, num=3, complement=4 → 4 not in seen → seen={3:0}
+# i=1, num=4, complement=3 → 3 IS in seen → return [seen[3], 1] = [0, 1] ✅
