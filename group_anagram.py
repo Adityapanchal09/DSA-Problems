@@ -20,3 +20,8 @@ def groupanagrams(strs):
 
 
 print(groupanagrams(strs))
+
+#time-O(n klogk)
+#n=number of words,k=max word length
+
+#space-O(n*k)
