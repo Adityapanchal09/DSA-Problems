@@ -8,7 +8,7 @@ def three_sum(nums):
     for i in range(len(nums)):
         l=i+1
         r=len(nums)-1
-        if i!=0 and nums[i]==nums[i-1]:
+        if i!=0 and nums[i]==nums[i-1]:     #skip duplicates 
             continue
         while l<r:
             total=nums[i]+nums[l]+nums[r]
