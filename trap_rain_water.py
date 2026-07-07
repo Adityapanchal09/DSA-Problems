@@ -22,3 +22,7 @@ def trap_water(height):
                 right-=1    
     return water                
 print(trap_water(height))        
+
+
+#time=O(n)
+#space=O(1)
